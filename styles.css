@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 40px;
+    background-color: #E8B4B8;
+}
+h1{
+    color: #fff;
+    font-family: Verdana;
+    display: flex;  
+margin-top :50px ;
+justify-content: center;
+
+font-size: 40px;
+}
+
+#find{
+    width: 30rem;
+    height: 35px;
+    box-shadow: 0 3px 10px rgba(84, 79, 79, 0.2);
+    border-radius: 8px;
+    border: solid;
+    border-color: white;
+    
+}
+
+input::placeholder{
+    padding-left: 6px;
+
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.container{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search{
+    position: relative;
+    text-align: center;
+
+}
+
+
+
+
+/* list of product */
+.product-list{
+    display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow: wrap;
+        margin-top: 50px;
+}
+
+.box{
+    background-color: white;
+    width: 280px;
+    height: 320px;
+    margin: 20px;
+    box-sizing: border-box;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+    border-radius: 9px;
+}
+
+/* images */
+.img-ofitem{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+ 
+width: 200px;
+
+}
+
+
+/* text */
+
+h3 p{
+   padding-top: 100px;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+.img1{
+    height: 160px;
+   width: 170px;
+    padding-top: 20px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.img2{
+   height: 160px;
+   width: 170px;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 30px;
+}
+.img3{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.img4{
+    height: 160px;
+    width: 170px;
+    margin-bottom: 30px;
+}
+.img5{
+    height: 160px;
+    width: 170px;
+    margin-bottom: 30px;
+}
+.img6{
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+.img7{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.img8 {
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+.img9{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
